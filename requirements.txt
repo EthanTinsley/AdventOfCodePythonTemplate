@@ -1,0 +1,8 @@
+ipykernel
+notebook
+jupyter
+
+python-dotenv
+
+advent-of-code-data[nb]
+advent-of-code-data
