@@ -2,6 +2,25 @@
 
 Welcome to the AdventOfCode repository! This project is designed to help kickstart your development for the Advent of Code challenges by providing a structured environment with easy setup and automated generation of placeholder solutions for each day's problem.
 
+### Project Directory After Setup
+
+After running the `setup.py` script with the ```--create_all``` flag enabled, your project directory will look like this:
+
+    codeAdventOfCode2024/ 
+    ├── requirements.txt # The dependencies file 
+    ├── .env # Configuration for environment variables (e.g., Advent of Code API key) 
+    ├── setup.py # The setup script for generating day placeholders 
+    ├── environment_setup.ipynb # Jupyter notebook to configure environment 
+    ├── template.ipynb # Template notebook for starting daily problems 
+    ├── Events/
+       ├── Year/
+          ├── Day01/
+             ├── example.txt
+             ├── solution.ipynb # Placeholder solution for Day 1 
+          ├── Day02/
+             ├── example.txt
+             ├── solution.ipynb # Placeholder solution for Day 2 
+
 ## Project Overview
 
 The project contains the following files and directories:
@@ -65,25 +84,6 @@ Once the environment is prepared, run the `setup.py` script to generate the dire
         python setup.py
 
 This will create placeholders for each day's solution in the format `dayXX.py`, with a simple structure to help you get started with each day's problem.
-
-### Project Directory After Setup
-
-After running the `setup.py` script with the ```--create_all``` flag enabled, your project directory will look like this:
-
-    codeAdventOfCode2024/ 
-    ├── requirements.txt # The dependencies file 
-    ├── .env # Configuration for environment variables (e.g., Advent of Code API key) 
-    ├── setup.py # The setup script for generating day placeholders 
-    ├── environment_setup.ipynb # Jupyter notebook to configure environment 
-    ├── template.ipynb # Template notebook for starting daily problems 
-    ├── Events/
-       ├── Year/
-          ├── Day01/
-             ├── example.txt
-             ├── solution.ipynb # Placeholder solution for Day 1 
-          ├── Day02/
-             ├── example.txt
-             ├── solution.ipynb # Placeholder solution for Day 2 
 
 ## .env File
 
