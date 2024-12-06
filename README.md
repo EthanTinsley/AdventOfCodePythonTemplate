@@ -1,4 +1,4 @@
-# AdventOfCode2024 Project Setup Guide
+# AdventOfCode Project Setup Guide
 
 Welcome to the AdventOfCode repository! This project is designed to help kickstart your development for the Advent of Code challenges by providing a structured environment with easy setup and automated generation of placeholder solutions for each day's problem.
 
@@ -7,11 +7,11 @@ Welcome to the AdventOfCode repository! This project is designed to help kicksta
 After running the `setup.py` script with the ```--create_all``` flag enabled, your project directory will look like this:
 
     codeAdventOfCode2024/ 
-    ├── requirements.txt # The dependencies file 
-    ├── .env # Configuration for environment variables (e.g., Advent of Code API key) 
-    ├── setup.py # The setup script for generating day placeholders 
-    ├── environment_setup.ipynb # Jupyter notebook to configure environment 
-    ├── template.ipynb # Template notebook for starting daily problems 
+    ├── requirements.txt 
+    ├── .env  
+    ├── setup.py  
+    ├── environment_setup.ipynb  
+    ├── template.ipynb  
     ├── Events/
        ├── Year/
           ├── Day01/
@@ -20,6 +20,7 @@ After running the `setup.py` script with the ```--create_all``` flag enabled, yo
           ├── Day02/
              ├── example.txt
              ├── solution.ipynb # Placeholder solution for Day 2 
+          ├── ...
 
 ## Project Overview
 
